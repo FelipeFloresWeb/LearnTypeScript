@@ -1,4 +1,4 @@
-export class UserAccount {
+abstract class UserAccountClass {
   name: string;
   age: number;
 
@@ -12,3 +12,5 @@ export class UserAccount {
   }
 
 }
+
+/* serves to serve as a "template" for other classes. It can be extended but you cannot create new objects from it. */
