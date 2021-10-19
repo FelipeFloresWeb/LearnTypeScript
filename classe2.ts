@@ -11,4 +11,6 @@ class CharAccount extends UserAccount {
     this.level = level;
   }
 
+  getLevel() { return this.level }
+
 }
