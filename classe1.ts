@@ -10,4 +10,5 @@ export class UserAccount {
   logDetails(): void {
     console.log(`This player ${this.name}, is ${this.age} years old.`);
   }
+
 }
