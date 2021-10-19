@@ -6,4 +6,5 @@ class CharAccount extends UserAccount {
         this.nickname = nickname;
         this.level = level;
     }
+    getLevel() { return this.level; }
 }
